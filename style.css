@@ -1,0 +1,56 @@
+.container{
+    border: 1px solid black;
+    width:auto;
+    display:inline-block;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    box-shadow: 0px 6px 10px 0px black;
+    background-color: black;
+    border-radius: 10px;
+    
+   
+}
+
+input{
+    padding: 20px ;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+
+
+    
+}
+.btn{
+    padding: 25px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    display: inline-flex;
+  align-items: center; 
+  justify-content: center;
+  border: none;
+  background-color: wheat;
+  /* box-shadow: 0px 2px 6px 0px black; */
+    
+}
+.container1{
+    padding-left: 25px;
+    padding-right: 20px;
+}
+.btn-orange{
+    background-color: orange;
+}
+@media screen and (max-width:767px){
+    
+    .container{
+        position: absolute;
+    top: 20%;
+    left: 15%;
+    }
+}
